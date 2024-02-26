@@ -119,3 +119,80 @@ body{
     }
 }
 
+.footer-top{
+    display: flex;
+    gap: 30rem;
+    background:hsl(238, 22%, 44%) ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.message{
+    display: grid;
+    gap: 10px;
+}
+
+.form{
+    display: grid;
+    gap: 10px;
+}
+
+#form-text{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+}
+
+#bttn{
+    background-color:hsl(224, 93%, 58%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 11rem;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 15rem;
+    background: hsl(243, 87%, 12%);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-info{
+    display: grid;
+    gap: 20px;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.i-info{
+    display: flex;
+    gap: 15px;
+}
+
+.list-type{
+    list-style-type: none;
+}
+
+.list-one, .list-two{
+    line-height: 30px;
+}
+
+
+.list-two{
+    padding-bottom: 30px;
+}
