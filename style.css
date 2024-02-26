@@ -10,6 +10,10 @@ body{
     margin: 40px;
     width: 1440px;
 }
+.part1{
+    display: flex;
+
+}
 .features{
     display: flex;
     direction: rtl;
@@ -22,10 +26,9 @@ body{
     font-family: "Raleway", sans-serif;
 }
 
-.ilustration-1{
-    width: 80%;
-    max-width: 500px;
-}
+/* .ilustration-1{
+  display: flex;
+} */
  
 .introduction-h2{
     width: 390px;
@@ -63,19 +66,14 @@ body{
     background-image: url("images/bg-curve-desktop.svg");
     width: 500px;
 }
-}   
+} 
+.part2{
+    display: flex;
+}  
 
-.ilustration-2{
-    /* display: flex;
-    justify-content: right;
- clip-path: 50%;
-   min-height: 0;
-   max-height: 0;
-   width: 100%;
-   margin: auto; */
-   width: 80%;
-   max-width: 500px;
-}
+/* .ilustration-2{
+    display: flex;
+} */
 
 .Description2{
     width: 450px;
