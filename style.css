@@ -70,11 +70,16 @@ body{
 
     .part2{
         display: flex;
-        background-image: url("images/bg-curve-desktop.svg");
+        background-image: url("images/bg-curve-desktop.svg") ;
         background-repeat: no-repeat;
+        background-size: ;
         width: 100%;
         gap: 150px;
 
+    }
+
+    .combo1{
+        margin-top: 100px;
     }
 
     .illustration-2{
@@ -108,7 +113,7 @@ body{
     width: 300px;
     padding: 5px;
     font-size: 16px;
-    margin: 0px;
+    margin-top: 45px;
 }
     .quotes{
 height: 8px;
@@ -201,7 +206,9 @@ height: 8px;
 
 .i-info{
     display: flex;
+    align-items: center;
     gap: 15px;
+    line-height: 0.01px;
 }
 
 .list-type{
