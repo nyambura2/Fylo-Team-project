@@ -1,0 +1,121 @@
+*{
+    border: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+    margin: 40px;
+    width: 1440px;
+}
+.features{
+    display: flex;
+    direction: rtl;
+    margin-bottom: 10px;
+    flex-direction: row;
+    gap: 20px;   
+}
+
+.illustration-1{
+    display: grid;
+   grid-column-end: 20px;
+   height: 500px;
+   width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 500px; 
+    margin-bottom: 210px; 
+} 
+.introduction-h2{
+    width: 360px;
+    color: hsl(243, 87%, 12%);
+    
+    
+}
+.Description1{
+    width: 450px;
+    font-size: 16px;
+    color: (238, 22%, 44%);
+    
+}
+.button{
+    display: flex;
+    justify-content: 1fr 1fr;
+    .box{
+        color: hsl(240, 75%, 98%);
+        background-color: hsl(224, 93%, 58%);
+        width: 150px;
+        height: 8px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+      }
+      .placeholder{
+        border: solid 1px black;
+        width: 300px;
+        text-align: center;
+        gap: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+.curve{
+    width: 500px;
+}
+}   
+
+.ilustration-2{
+   transform: scale(0.75);
+}
+
+.Description2{
+    width: 450px;
+    font-size: 16px;
+   color: hsl(238, 22%, 44%); 
+}
+.Works{
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+    margin-bottom: 10px;
+}
+.part3{
+    background-color: hsl(240, 75%, 98%); 
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    .quotes{
+        height: 8px;
+}
+.ceo{
+     .name{
+        /* font-weight: bold;
+        justify-content: left;
+        display:flex; */
+        font-weight: bold;
+        justify-content: left 10px;
+        text-align: center;
+        /* margin-top: 15px; */
+        /* margin-left: 60px; */
+
+     } 
+     .title{
+        font-size: 10px;
+        text-align: left;
+        margin-right: 30px;
+        /* margin-bottom: 20px; */
+     } 
+     .image{
+       /* height: 70px;
+       width: 70px; */
+       /* clip-path: circle(100px); */
+       border-radius: 100%;
+      
+
+     }
+    }
+}
+
