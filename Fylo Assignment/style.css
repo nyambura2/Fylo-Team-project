@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    margin: auto;
     justify-content: center;
-    max-width: 100%;
     margin: 40px;
-    width: 1440px;
+}
+
+.part1{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+
 }
 .features{
     display: flex;
@@ -22,15 +26,17 @@ body{
     font-family: "Raleway", sans-serif;
 }
 
-.ilustration-1{
-    width: 80%;
-    max-width: 500px;
+.ilustration-1 svg{
+    width: 50%;
+    height: 40px;
+    
 }
  
 .introduction-h2{
-    width: 390px;
+    width: 500px;
     color: hsl(243, 87%, 12%); 
     font-family: "Raleway", sans-serif;
+    font-size: 20px;
 }  
 
 .Description1{
@@ -51,6 +57,8 @@ body{
         padding-left: 20px;
         padding-bottom: 50px;
       }
+       }
+
       .placeholder{
         border: solid 1px black;
         width: 300px;
@@ -59,23 +67,23 @@ body{
         margin-right: 10px;
         padding: 10px;
     }
-.curve{
-    background-image: url("images/bg-curve-desktop.svg");
-    width: 500px;
-}
-}   
 
-.ilustration-2{
-    /* display: flex;
-    justify-content: right;
- clip-path: 50%;
-   min-height: 0;
-   max-height: 0;
-   width: 100%;
-   margin: auto; */
-   width: 80%;
-   max-width: 500px;
-}
+    .part2{
+        display: flex;
+        background-image: url("images/bg-curve-desktop.svg");
+        background-repeat: no-repeat;
+        width: 100%;
+        gap: 150px;
+
+    }
+
+    .illustration-2{
+        width: 50%;
+    }
+    
+
+
+
 
 .Description2{
     width: 450px;
@@ -87,38 +95,50 @@ body{
     text-decoration: underline;
     color: hsl(170, 45%, 43%);
     margin-bottom: 10px;
+    
 }
+.image-borders{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .part3{
     background-color: hsl(240, 75%, 98%);
     width: 300px;
     padding: 5px;
     font-size: 16px;
     margin: 0px;
+}
     .quotes{
-        height: 8px;
+height: 8px;
 }
 .ceo{
+    display: flex;
+    gap: 10px;
      .name{
         font-weight: bold;
         font-family: "Open Sans", sans-serif;
         justify-content: left 10px;
         text-align: center;
+        margin-bottom: 10px;
      } 
      .title{
         font-size: 10px;
         text-align: left;
         margin-right: 30px;
-        /* margin-bottom: 20px; */
      } 
      .image{
-       /* height: 70px;
-       width: 70px; */
-       /* clip-path: circle(100px); */
        border-radius: 100%;
      }
-    }
-}
+     }
 
+     .info{
+        display: grid;
+        gap: none;
+     }
+
+     
 .footer-top{
     display: flex;
     gap: 30rem;
@@ -135,7 +155,7 @@ body{
 
 .message{
     display: grid;
-    gap: 10px;
+    gap: 10px; 
 }
 
 .form{
